@@ -6,12 +6,13 @@ public class Main {
         //method- a block of code that is executed whenever it is called upon
 
         String name = "Bro";
+        int age = 21;
 
-        hello(name);
+        hello(name, age);
 
     }
 
-    static void hello(String name){
-        System.out.println("Hello  " + name);
+    static void hello(String name, int age){
+        System.out.println("Hello  " + name + ",  your age is "+age);
     }
 }
